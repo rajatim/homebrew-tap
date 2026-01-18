@@ -3,25 +3,25 @@ class Zhtw < Formula
 
   desc "Traditional Chinese converter for Taiwan - 讓你的程式碼說台灣話"
   homepage "https://github.com/rajatim/zhtw"
-  url "https://files.pythonhosted.org/packages/b9/77/29761b3f8388e48cb0e3d3c3bf0b9fb1acdc056e0abbc931a2c9ca6da10a/zhtw-2.8.6.tar.gz"
-  sha256 "00c16bf5a33a58408e5bdc587b2015a041acd8b7227dadc11495151d357604dc"
+  url "https://files.pythonhosted.org/packages/a3/4f/90450b327e4797fb460cac65251c7eca3fea99cf80bbb242fa35f972e624/zhtw-2.8.7.tar.gz"
+  sha256 "58f73792ad339d326b65116c80164aabb6ad7467d2b7f2327b1606062c45b89e"
   license "MIT"
 
   depends_on "python@3.12"
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    sha256 "58f73792ad339d326b65116c80164aabb6ad7467d2b7f2327b1606062c45b89e"
   end
 
   resource "pyahocorasick" do
     url "https://files.pythonhosted.org/packages/ad/eb/6bf175a745bdb3b247c0f8bff784745f0b30fdfafb5760d635b45d91c607/pyahocorasick-2.3.0.tar.gz"
-    sha256 "2960f5838bbcca4d7765c40478ec56f938e3f161946ff84f00c06d2b3a0ba9dd"
+    sha256 "58f73792ad339d326b65116c80164aabb6ad7467d2b7f2327b1606062c45b89e"
   end
 
   resource "charset-normalizer" do
     url "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz"
-    sha256 "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
+    sha256 "58f73792ad339d326b65116c80164aabb6ad7467d2b7f2327b1606062c45b89e"
   end
 
   def install
