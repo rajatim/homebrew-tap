@@ -3,8 +3,8 @@ class Zhtw < Formula
 
   desc "Traditional Chinese converter for Taiwan - 讓你的程式碼說台灣話"
   homepage "https://github.com/rajatim/zhtw"
-  url "https://files.pythonhosted.org/packages/70/94/cdfbb22e4978e37207a5a8c3652ae4458ab00ec6cef0c379890f682494fa/zhtw-4.0.0.tar.gz"
-  sha256 "a6d16a68d06e301b62e80f09edd926dc9755fa29658b1f95d376b7caffa502a7"
+  url "https://files.pythonhosted.org/packages/f6/14/2d9399f1ab4236e8ea1c8d6fc0b8a24248c4004d0abf2818552c65ccf482/zhtw-4.0.1.tar.gz"
+  sha256 "40a248d0d3321cde9dc0e9c44ee1cee7e6a24ecf4eb4b15263af0dcec30cd24a"
   license "MIT"
 
   depends_on "python@3.12"
