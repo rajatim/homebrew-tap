@@ -3,15 +3,15 @@ class Zhtw < Formula
 
   desc "Traditional Chinese converter for Taiwan - 讓你的程式碼說台灣話"
   homepage "https://github.com/rajatim/zhtw"
-  url "https://files.pythonhosted.org/packages/f5/3b/cfdd9686784ec24716ead56a6f345f2e5c16a3eec1e5f44c84803b8c1811/zhtw-3.4.0.tar.gz"
-  sha256 "ea0380fd18cffc89c2553c9ad710d6ef382df594b68586a2a3bf77578cd6aedd"
+  url "https://files.pythonhosted.org/packages/70/94/cdfbb22e4978e37207a5a8c3652ae4458ab00ec6cef0c379890f682494fa/zhtw-4.0.0.tar.gz"
+  sha256 "a6d16a68d06e301b62e80f09edd926dc9755fa29658b1f95d376b7caffa502a7"
   license "MIT"
 
   depends_on "python@3.12"
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/57/75/31212c6bf2503fdf920d87fee5d7a86a2e3bcf444984126f13d8e4016804/click-8.3.2.tar.gz"
+    sha256 "14162b8b3b3550a7d479eafa77dfd3c38d9dc8951f6f69c78913a8f9a7540fd5"
   end
 
   resource "pyahocorasick" do
@@ -20,8 +20,8 @@ class Zhtw < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/7b/60/e3bec1881450851b087e301bedc3daa9377a4d45f1c26aa90b0b235e38aa/charset_normalizer-3.4.6.tar.gz"
-    sha256 "1ae6b62897110aa7c79ea2f5dd38d1abca6db663687c0b1ad9aed6f6bae3d9d6"
+    url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
+    sha256 "ae89db9e5f98a11a4bf50407d4363e7b09b31e55bc117b4f7d80aab97ba009e5"
   end
 
   def install
