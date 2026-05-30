@@ -1,5 +1,7 @@
 # Homebrew Tap
 
+> **AI instruction source of truth is `AGENTS.md`** — Codex reads it natively (no import). `CLAUDE.md` / `GEMINI.md` are `@AGENTS.md` wrappers.
+
 Personal Homebrew tap for custom formulae.
 
 ## Purpose
